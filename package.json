@@ -1,6 +1,9 @@
 {
   "name": "hustle",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.13.0"
+  },
   "description": "A place where future co-founders meet each other",
   "main": "server.js",
   "scripts": {
