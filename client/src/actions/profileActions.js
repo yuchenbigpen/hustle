@@ -45,6 +45,7 @@ export const getProfileByHandle = handle => dispatch => {
     );
 };
 
+// Create Profile
 export const createProfile = (profileData, history) => dispatch => {
   axios
     .post("/api/profile", profileData)
@@ -69,6 +70,7 @@ export const addExperience = (expData, history) => dispatch => {
     );
 };
 
+// Add education
 export const addEducation = (eduData, history) => dispatch => {
   axios
     .post("/api/profile/education", eduData)
